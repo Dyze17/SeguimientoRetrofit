@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Pokédex</string>
+
+    <!-- Estado de la conexión -->
+    <string name="status_online">En línea</string>
+    <string name="status_offline">Sin conexión</string>
+    <string name="offline_banner">Sin conexión a internet. Lo que ya cargó sigue disponible; lo demás se cargará cuando vuelva la conexión.</string>
+
+    <!-- Lista y filtros -->
+    <string name="search_hint">Buscar por nombre o número</string>
+    <string name="clear_search">Borrar búsqueda</string>
+    <string name="filter_type">Tipo</string>
+    <string name="filter_type_all">Todos los tipos</string>
+    <string name="filter_generation">Generación</string>
+    <string name="filter_generation_all">Todas las generaciones</string>
+    <string name="clear_filters">Limpiar filtros</string>
+    <string name="filter_options_error">No se pudieron cargar los tipos y generaciones.</string>
+    <string name="generation_short">Gen. %1$s</string>
+    <string name="generation_long">Generación %1$s</string>
+    <string name="generation_with_region">Generación %1$s · %2$s</string>
+    <string name="empty_results">Ningún Pokémon coincide con la búsqueda</string>
+    <string name="empty_results_hint">Prueba con otro nombre, número, tipo o generación.</string>
+    <string name="load_more_error">No se pudieron cargar más Pokémon.</string>
+    <string name="end_of_list">Fin de la lista</string>
+    <string name="pokemon_image">Imagen de %1$s</string>
+
+    <!-- Errores -->
+    <string name="retry">Reintentar</string>
+    <string name="error_title_network">Sin conexión</string>
+    <string name="error_title">Algo salió mal</string>
+    <string name="error_network">No se pudo conectar con PokeAPI. Revisa tu conexión a internet e inténtalo de nuevo.</string>
+    <string name="error_not_found">PokeAPI no tiene información de este Pokémon.</string>
+    <string name="error_server">PokeAPI no está respondiendo bien en este momento. Inténtalo de nuevo en unos minutos.</string>
+    <string name="error_unknown">Ocurrió un error inesperado al leer los datos.</string>
+
+    <!-- Detalle -->
+    <string name="back">Volver</string>
+    <string name="shiny_toggle">Ver versión variocolor</string>
+    <string name="section_description">Descripción</string>
+    <string name="section_data">Datos</string>
+    <string name="section_abilities">Habilidades</string>
+    <string name="section_stats">Estadísticas base</string>
+    <string name="no_description">PokeAPI no tiene descripción para este Pokémon.</string>
+    <string name="height">Altura</string>
+    <string name="height_value">%1$.1f m</string>
+    <string name="weight">Peso</string>
+    <string name="weight_value">%1$.1f kg</string>
+    <string name="base_experience">Experiencia base</string>
+    <string name="habitat">Hábitat</string>
+    <string name="generation">Generación</string>
+    <string name="capture_rate">Ratio de captura</string>
+    <string name="capture_rate_value">%1$d / 255</string>
+    <string name="ability_hidden">%1$s (oculta)</string>
+    <string name="legendary">Legendario</string>
+    <string name="mythical">Singular</string>
+    <string name="stat_total">Total</string>
+
+    <!-- Estadísticas -->
+    <string name="stat_hp">PS</string>
+    <string name="stat_attack">Ataque</string>
+    <string name="stat_defense">Defensa</string>
+    <string name="stat_special_attack">At. Esp.</string>
+    <string name="stat_special_defense">Def. Esp.</string>
+    <string name="stat_speed">Velocidad</string>
+
+    <!-- Tipos -->
+    <string name="type_normal">Normal</string>
+    <string name="type_fire">Fuego</string>
+    <string name="type_water">Agua</string>
+    <string name="type_electric">Eléctrico</string>
+    <string name="type_grass">Planta</string>
+    <string name="type_ice">Hielo</string>
+    <string name="type_fighting">Lucha</string>
+    <string name="type_poison">Veneno</string>
+    <string name="type_ground">Tierra</string>
+    <string name="type_flying">Volador</string>
+    <string name="type_psychic">Psíquico</string>
+    <string name="type_bug">Bicho</string>
+    <string name="type_rock">Roca</string>
+    <string name="type_ghost">Fantasma</string>
+    <string name="type_dragon">Dragón</string>
+    <string name="type_dark">Siniestro</string>
+    <string name="type_steel">Acero</string>
+    <string name="type_fairy">Hada</string>
+
+    <!-- Hábitats -->
+    <string name="habitat_cave">Cueva</string>
+    <string name="habitat_forest">Bosque</string>
+    <string name="habitat_grassland">Pradera</string>
+    <string name="habitat_mountain">Montaña</string>
+    <string name="habitat_rare">Raro</string>
+    <string name="habitat_rough_terrain">Terreno agreste</string>
+    <string name="habitat_sea">Mar</string>
+    <string name="habitat_urban">Urbano</string>
+    <string name="habitat_waters_edge">Orilla del agua</string>
+</resources>
